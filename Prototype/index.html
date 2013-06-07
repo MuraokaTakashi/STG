@@ -1,0 +1,105 @@
+<!--
+index.html
+-->
+<!DOCTYPE html>
+<html>
+
+<!-- ヘッダー -->
+<head>
+	<!-- 文字設定 -->
+	<meta charset="UTF-8">
+
+    <meta name = "viewport" content="width = 400, height = 400,
+    								initial-scale = 1.0, maximum-scale = 1.0,
+    								user-scalable = no">
+	<!--
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	-->
+
+	<!-- タイトル名 -->
+	<title>インデックス</title>
+	<!-- 外部ファイルの読み込み -->
+	<script type="text/javascript" src="Js/Enchant/enchant.js"></script>
+	<!--<script type="text/javascript" src="Js/Enchant/enchant.min.js"></script>-->
+	<!-- 各プラグイン -->
+	<script type="text/javascript" src="Js/Enchant/Plugins/Box2dWeb-2.1.a.3.js"></script>
+	<script type="text/javascript" src="Js/Enchant/Plugins/box2d.enchant.js"></script>
+	<script type="text/javascript" src="Js/Main.js"></script>
+	<!-- 各シーン -->
+	<script type="text/javascript" src="Js/Game/Scene/BaseScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/TitleScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/PlayScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/EndScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SceneManager.js"></script>
+
+	<script type="text/javascript" src="Js/Game/Scene/TestScene.js"></script>
+
+	<!-- 各サブシーン -->
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/BaseSubScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubPlayCountScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubPauseScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubGameClearScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubGameOverScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubStageSelectScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubDummyScene.js"></script>
+
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SampleScene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/Sample1Scene.js"></script>
+	<script type="text/javascript" src="Js/Game/Scene/SubScene/SubIsingScene.js"></script>
+
+	<!-- 各オブジェクト -->
+	<script type="text/javascript" src="Js/Game/Object/BaseObject.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Player.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/PlayerWeaponManager.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Block.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/BlockManager.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Enemy.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Enemy1.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Enemy2.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Enemy3.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Boss.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Boss1.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/EnemyManager.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/BaseMap.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Item.js"></script>
+
+	<script type="text/javascript" src="Js/Game/Object/LivePool.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/DeadPool.js"></script>
+
+	<!-- エフェクト -->
+	<script type="text/javascript" src="Js/Game/Object/Bomb.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/ItemEffect.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/BariaEffect.js"></script>
+	<script type="text/javascript" src="Js/Game/Object/Splinter.js"></script>
+
+	<!-- ステージ -->
+	<script type="text/javascript" src="Js/Game/Stage/BlockMapList.js"></script>
+	<script type="text/javascript" src="Js/Game/Stage/EnemyMapList.js"></script>
+	<script type="text/javascript" src="Js/Game/Stage/StageMapList.js"></script>
+
+
+	<!-- 仮想コントローラ -->
+	<script type="text/javascript" src="Js/Game/VirtualController.js"></script>
+	<!-- その他 -->
+	<script type="text/javascript" src="Js/Game/Vector2.js"></script>
+	<script type="text/javascript" src="Js/Game/Collision.js"></script>
+	<script type="text/javascript" src="Js/Game/Global.js"></script>
+	<script type="text/javascript" src="Js/Game/ArrayList.js"></script>
+	<script type="text/javascript" src="Js/Game/Define.js"></script>
+
+	<style>
+      /* ウィンドウとゲーム画面のすき間をなくします */
+       body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+</head>
+
+<!-- エントリーポイント -->
+<body onload='main()'>
+	<!-- キャンバスの設定 -->
+	<!--<canvas id="main" width="320" height="320"></canvas>-->
+</body>
+
+</html>
